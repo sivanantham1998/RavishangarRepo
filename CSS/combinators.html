@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* decendant selectors */
+
+        div p{
+            background-color:rgba(246, 246, 5, 0.581);
+        }
+    /* child selectors */
+    div > p{
+        color: hsl(0, 21%, 54%);
+    }
+
+    /* adjustant sibiling selector */
+    div + p{
+        font-size: xx-large;
+    }
+
+    /* general sibiling selector */
+
+    div ~ p{
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    
+
+    <div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, tenetur!
+        </p>
+        
+        <ul>
+            <li>
+                happy
+
+            </li><li>sads=</li>
+        </ul>
+
+        <section>
+            <p>inside the section </p>
+        </section>
+    </div>
+
+    <p>
+        outside para1
+    </p>
+
+    <p>
+        para two
+    </p>
+
+    <ul>
+        <li>
+            happy
+        </li>
+        <li>sad</li>
+    </ul>
+
+    <p>
+        para3
+    </p>
+</body>
+</html>

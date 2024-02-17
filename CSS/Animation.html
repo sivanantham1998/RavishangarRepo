@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+            animation-name: abcd;
+            animation-duration: 10s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes abcd{
+            from{
+                top: 0px;
+                left: 0px;
+            }
+            to{
+                top: 150px;
+                left: 200px;
+                background-color: red;
+                transform: scale(1.9);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

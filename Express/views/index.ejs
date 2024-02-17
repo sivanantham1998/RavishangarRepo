@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to EJS</title>
+</head>
+<body>
+    <h1>Welcome to Ejs Node template engine</h1>
+    <p>
+        user name is <%=user%>
+    </p>
+
+    <li>
+        <%=detail.age%>
+    </li>
+
+    <form action="/" method="post">
+        <input type="text" name="name">
+        <input type="submit">
+    </form>
+
+    <%if(arr.length<=0){%>
+        <h1>
+            No data found
+        </h1>
+    <%}else{%>
+        <% for(i=0;i<=arr.length;i++){ %>
+            <p>
+                <%=arr[i]%>
+            </p>
+        <%}%>
+    <%}%>
+</body>
+</html>

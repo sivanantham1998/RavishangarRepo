@@ -1,0 +1,46 @@
+/* 1.element selector
+ 2.class selector 
+ 3.id selector 
+ 4.universal selector
+ 5.grouping selector */
+
+ /* element selector */
+ h1
+ {
+    color: red;
+ }
+ li
+ {
+    color: tomato;
+ }
+
+ /* id selector */
+ #one
+ {
+    color:blue;
+ }
+
+ /* class selctor */
+
+ .zero
+ {
+    color: violet;
+ }
+ .one
+ {
+    background-color: aqua;
+ }
+
+ /* universal selector */
+ *
+ {
+    text-align: center;
+    background-color: blanchedalmond;
+ }
+
+ /* grouping selector */
+
+ #first,label,#last
+ {
+    background-color: yellow;
+ }
